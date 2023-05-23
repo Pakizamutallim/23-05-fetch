@@ -1,0 +1,136 @@
+.slider {
+    height: 110vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://cdn.apartmenttherapy.info/image/upload/v1554209861/at/house%20tours%20stock%20archive/312b3933109935c5f33f6b8ec4a271669eb2d78a.jpg'); 
+    background-repeat: no-repeat;
+    // background-size: 100%;
+    background-position: center;
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 15vh;
+        // div{
+            
+        // }
+        ul{
+            display: flex;
+            li{
+                list-style: none;
+            }
+        }
+    }
+    .text{
+        margin: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        *{
+            margin: 4% 0;
+        }
+    }
+}
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4%;
+}
+
+.about{
+    text-align: center;
+    height: 100vh;
+    .about-text{
+        margin: 8% 15%;
+    }
+    .services{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 4%;
+        *{
+            margin: 3% 0; 
+        }
+        .item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 5%;
+            .circle{
+                width: 120px;
+                height: 120px;
+                border: solid 1px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                i{
+
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+}
+.meet{
+    margin-top: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 1px;
+    .meet-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2% 20%;
+    }
+    .team{
+        
+        *{
+            margin: 0 5%;
+        }
+        .member{
+            text-align: center;
+            .photo{
+                width: 200px;
+                height: 200px;
+                // background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            p{
+                margin-top: 5%;
+            }
+        }
+    }
+}
+.blog{
+    margin-top: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 20%;
+    height: 120vh;
+    .blog-text{
+        text-align: center;
+    }
+    .news{
+        margin-top: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        .news-item{
+            width: 30%;
+            .pics{
+                width: 100%;
+                height: 200px;
+            }
+        }
+    }
+}
